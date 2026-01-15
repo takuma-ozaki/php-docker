@@ -20,7 +20,7 @@ services:
       - mysql-data:/var/lib/mysql
   phpmyadmin:
     image: phpmyadmin:latest
-    container_name: phpmyadmin
+    container_name: phpmyadmin-phpdocker
     ports:
       - "8071:80"
     environment:
